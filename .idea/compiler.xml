@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-client-zk" />
+        <module name="rpc-api" />
+        <module name="RocketTx" />
+        <module name="rpc-client" />
+        <module name="rpc-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RocketTx" target="1.8" />
+      <module name="rpc-api" target="1.5" />
+      <module name="rpc-client" target="1.5" />
+      <module name="rpc-client-zk" target="1.8" />
+      <module name="rpc-server" target="1.8" />
+      <module name="rpc-server-zk" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RocketTx" options="-parameters" />
+      <module name="rpc-api" options="" />
+    </option>
+  </component>
+</project>
